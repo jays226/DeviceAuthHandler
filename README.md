@@ -6,8 +6,8 @@ Open source project that generates Fortnite device-auths with Python using async
 - [Python 3](https://www.python.org/downloads/)
 
 ## Usage
-- Run the START.bat file
-- OR implement the code in your own project with the handler.py file
+- Run the `START.bat` file
+- OR implement the code in your own project with the `handler.py` file
 
 ## Credits
 - Created by AtomicXYZ
