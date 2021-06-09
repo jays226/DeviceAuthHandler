@@ -1,6 +1,6 @@
 # py-DeviceAuthHandler
 
-Open source project that generates Fortnite device-auths with Python
+Open source project that generates Fortnite device-auths with Python using async methods.
 
 ## Requirements
 - [Python 3](https://www.python.org/downloads/)
