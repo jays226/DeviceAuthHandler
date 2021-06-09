@@ -46,7 +46,7 @@ class Handler:
         return [verification_uri,device_code]
     
     async def generate_device_auths(self, data) -> None:
-        # try:
+        try:
             deviceCode = data
             
             url = "https://account-public-service-prod.ol.epicgames.com/account/api/oauth/token"
@@ -87,8 +87,8 @@ class Handler:
             self.device_auths['created_at'] = device_details['created']['dateTime']
 
             return self.device_auths
-        # except:
-        #     return {}
+        except:
+            return {}
     
     async def run(self):
         self.session = aiohttp.ClientSession()
